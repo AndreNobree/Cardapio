@@ -1,0 +1,80 @@
+body {
+	overflow-x: hidden;
+	background-color: darkred;
+}
+
+#menu_superior {
+	height: 200px;
+	background: darkgray;
+	background-image: url(https://image.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-2288.jpg);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	box-shadow: 1px 1px 10px 0px black;
+}
+
+#titulo_menu_superior {
+	color: white;
+	font-size: 100px;
+	text-shadow: 5px 5px black;
+	text-align: center;
+	line-height: 55px;
+}
+
+#menu_esquerdo {
+	width: 300px;
+	background: green;
+	display: block;
+	height: 100%;
+	border: 1px solid darkgray;
+	border-radius: 0px 10px 0px 0px;
+	position: fixed;
+	left: 0px;
+}
+
+#menu_esquerdo li a {
+	background: white;
+	display: block;
+	height: 40px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	line-height: 40px;
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+}
+
+#menu_esquerdo li a:hover {
+	font-weight: bold;
+	background: black;
+	color: white;
+	width: 280px;
+	box-shadow: 5px 5px 20px 0px black;
+}
+
+#menu_esquerdo ul {
+	text-align: left;
+	list-style-type: none;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+
+#conteudo {
+	margin-top: 220px;
+	margin-left: 300px;
+}
+
+.pizza {
+	background: green;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+	text-align: left;
+	box-shadow: 5px 5px 20px 0px black;
+}
+
+.pizza img {
+	width: 500px;
+}
